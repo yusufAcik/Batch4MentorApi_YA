@@ -4,14 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd8c8d0-79fd-40f9-b882-17b2695a947f" name="Changes" comment="" />
+    <list default="true" id="6dd8c8d0-79fd-40f9-b882-17b2695a947f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kraft/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_01/Test01_SimpleGetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_02/Test_1_UserGetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_02/Test_2_GetRequestWithPathMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_02/Test_3_GetRequestWithJsonPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_03/Test_04_HamcrestMatchers.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,12 +51,112 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="TestNG.Test_04_HamcrestMatchers.getOneUserWithHamcrestMatchers">
+    <configuration name="Test_04_HamcrestMatchers.getOneUserWithHamcrestMatchers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4MentorApi_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day_03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_03.Test_04_HamcrestMatchers" />
+      <option name="METHOD_NAME" value="getOneUserWithHamcrestMatchers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_2_GetRequestWithPathMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4MentorApi_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day_02" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_2_GetRequestWithPathMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_2_GetRequestWithPathMethod.testAllUserWithPathParam" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4MentorApi_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day_02" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_2_GetRequestWithPathMethod" />
+      <option name="METHOD_NAME" value="testAllUserWithPathParam" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_2_GetRequestWithPathMethod.testWithPathMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4MentorApi_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day_02" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_2_GetRequestWithPathMethod" />
+      <option name="METHOD_NAME" value="testWithPathMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_3_GetRequestWithJsonPath.testWithJsonPetMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4MentorApi_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day_02" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_3_GetRequestWithJsonPath" />
+      <option name="METHOD_NAME" value="testWithJsonPetMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Test_04_HamcrestMatchers.getOneUserWithHamcrestMatchers" />
+        <item itemvalue="TestNG.Test_3_GetRequestWithJsonPath.testWithJsonPetMethod" />
+        <item itemvalue="TestNG.Test_2_GetRequestWithPathMethod.testAllUserWithPathParam" />
+        <item itemvalue="TestNG.Test_2_GetRequestWithPathMethod" />
+        <item itemvalue="TestNG.Test_2_GetRequestWithPathMethod.testWithPathMethod" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
