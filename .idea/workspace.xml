@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd8c8d0-79fd-40f9-b882-17b2695a947f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kraft/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_01/Test01_SimpleGetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_02/Test_1_UserGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_02/Test_2_GetRequestWithPathMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_02/Test_3_GetRequestWithJsonPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_03/Test_04_HamcrestMatchers.java" afterDir="false" />
+    <list default="true" id="6dd8c8d0-79fd-40f9-b882-17b2695a947f" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_04/Test_01_JsonToJava_deSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_04/Test_02_POJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_04/Test_03_POJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoTemplates/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoTemplates/Experience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoTemplates/GoRestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoTemplates/KraftUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +54,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Test_04_HamcrestMatchers.getOneUserWithHamcrestMatchers">
-    <configuration name="Test_04_HamcrestMatchers.getOneUserWithHamcrestMatchers" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\Batch4MentorApi_YA\src\test\java\pojoTemplates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Test_03_POJO.pojoTestKraft">
+    <configuration name="Test_01_JsonToJava_deSerialization.allUsersToList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4MentorApi_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day_03.*" />
+          <option name="PATTERN" value="apiTest.day_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_03.Test_04_HamcrestMatchers" />
-      <option name="METHOD_NAME" value="getOneUserWithHamcrestMatchers" />
+      <option name="PACKAGE_NAME" value="apiTest.day_04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_01_JsonToJava_deSerialization" />
+      <option name="METHOD_NAME" value="allUsersToList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,16 +78,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_2_GetRequestWithPathMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_01_JsonToJava_deSerialization.jsonToJavaDeSerializationMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4MentorApi_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day_02.*" />
+          <option name="PATTERN" value="apiTest.day_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_2_GetRequestWithPathMethod" />
+      <option name="PACKAGE_NAME" value="apiTest.day_04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_01_JsonToJava_deSerialization" />
+      <option name="METHOD_NAME" value="jsonToJavaDeSerializationMap" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_02_POJO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4MentorApi_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day_04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_02_POJO" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -93,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_2_GetRequestWithPathMethod.testAllUserWithPathParam" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_02_POJO.goRestPojoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4MentorApi_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day_02.*" />
+          <option name="PATTERN" value="apiTest.day_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_2_GetRequestWithPathMethod" />
-      <option name="METHOD_NAME" value="testAllUserWithPathParam" />
+      <option name="PACKAGE_NAME" value="apiTest.day_04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_02_POJO" />
+      <option name="METHOD_NAME" value="goRestPojoTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,35 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_2_GetRequestWithPathMethod.testWithPathMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_03_POJO.pojoTestKraft" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4MentorApi_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day_02.*" />
+          <option name="PATTERN" value="apiTest.day_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_2_GetRequestWithPathMethod" />
-      <option name="METHOD_NAME" value="testWithPathMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_3_GetRequestWithJsonPath.testWithJsonPetMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4MentorApi_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day_02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_02.Test_3_GetRequestWithJsonPath" />
-      <option name="METHOD_NAME" value="testWithJsonPetMethod" />
+      <option name="PACKAGE_NAME" value="apiTest.day_04" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_03_POJO" />
+      <option name="METHOD_NAME" value="pojoTestKraft" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_04_HamcrestMatchers.getOneUserWithHamcrestMatchers" />
-        <item itemvalue="TestNG.Test_3_GetRequestWithJsonPath.testWithJsonPetMethod" />
-        <item itemvalue="TestNG.Test_2_GetRequestWithPathMethod.testAllUserWithPathParam" />
-        <item itemvalue="TestNG.Test_2_GetRequestWithPathMethod" />
-        <item itemvalue="TestNG.Test_2_GetRequestWithPathMethod.testWithPathMethod" />
+        <item itemvalue="TestNG.Test_03_POJO.pojoTestKraft" />
+        <item itemvalue="TestNG.Test_02_POJO.goRestPojoTest" />
+        <item itemvalue="TestNG.Test_02_POJO_Serialization" />
+        <item itemvalue="TestNG.Test_01_JsonToJava_deSerialization.jsonToJavaDeSerializationMap" />
+        <item itemvalue="TestNG.Test_01_JsonToJava_deSerialization.allUsersToList" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +168,18 @@
       <option name="presentableId" value="Default" />
       <updated>1693420221359</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1693669853504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693669853504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
