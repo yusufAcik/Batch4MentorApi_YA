@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd8c8d0-79fd-40f9-b882-17b2695a947f" name="Changes" comment="6 9">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_05/Authorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_05/PostPutPatchDelete_Experience.java" afterDir="false" />
+    <list default="true" id="6dd8c8d0-79fd-40f9-b882-17b2695a947f" name="Changes" comment="7 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day_05/Authorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_05/Authorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day_05/PostPutPatchDelete_Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day_05/PostPutPatchDelete_Experience.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,25 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4MentorApi_YA\src\test\java\pojoTemplates" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Authorization.tokenTest">
+  <component name="RunManager" selected="TestNG.PostPutPatchDelete_Experience">
+    <configuration name="Authorization.tokenTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4MentorApi_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day_05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_05.Authorization" />
+      <option name="METHOD_NAME" value="tokenTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Authorization.tokenTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4MentorApi_YA" />
       <extension name="coverage">
@@ -72,53 +90,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_01_JsonToJava_deSerialization.allUsersToList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostPutPatchDelete_Experience" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4MentorApi_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day_04.*" />
+          <option name="PATTERN" value="apiTest.day_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_01_JsonToJava_deSerialization" />
-      <option name="METHOD_NAME" value="allUsersToList" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="apiTest.day_05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_05.PostPutPatchDelete_Experience" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_01_JsonToJava_deSerialization.jsonToJavaDeSerializationMap" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostPutPatchDelete_Experience.addNewExperience" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4MentorApi_YA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day_04.*" />
+          <option name="PATTERN" value="apiTest.day_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_01_JsonToJava_deSerialization" />
-      <option name="METHOD_NAME" value="jsonToJavaDeSerializationMap" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_02_POJO.goRestPojoTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4MentorApi_YA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day_04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day_04.Test_02_POJO" />
-      <option name="METHOD_NAME" value="goRestPojoTest" />
+      <option name="PACKAGE_NAME" value="apiTest.day_05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day_05.PostPutPatchDelete_Experience" />
+      <option name="METHOD_NAME" value="addNewExperience" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PostPutPatchDelete_Experience" />
+        <item itemvalue="TestNG.PostPutPatchDelete_Experience.addNewExperience" />
         <item itemvalue="TestNG.Authorization.tokenTest" />
+        <item itemvalue="TestNG.Authorization.tokenTest (1)" />
         <item itemvalue="TestNG.Test_03_POJO.pojoTestKraft" />
-        <item itemvalue="TestNG.Test_02_POJO.goRestPojoTest" />
-        <item itemvalue="TestNG.Test_01_JsonToJava_deSerialization.jsonToJavaDeSerializationMap" />
-        <item itemvalue="TestNG.Test_01_JsonToJava_deSerialization.allUsersToList" />
       </list>
     </recent_temporary>
   </component>
@@ -177,12 +176,20 @@
       <option name="project" value="LOCAL" />
       <updated>1694026484730</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="7 9">
+      <created>1694121164542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694121164542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="6 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 9" />
+    <MESSAGE value="7 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 9" />
   </component>
 </project>

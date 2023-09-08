@@ -7,9 +7,14 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.time.format.SignStyle;
+
 import static io.restassured.RestAssured.baseURI;
 
 public class Authorization {
+
+   static String email="jack@gmail.com";
+   static String password="Jack12345";
 
     @BeforeClass
     public void setUpClass(){
@@ -18,8 +23,7 @@ public class Authorization {
 
     @Test
     public void tokenTest(){
-        String email="jack@gmail.com";
-        String password="Jack12345";
+
 
         Response response = RestAssured.given().accept(ContentType.MULTIPART)
                 .formParam("email", email)
@@ -29,5 +33,33 @@ public class Authorization {
                 .prettyPeek();
 
         Assert.assertEquals(response.statusCode(),200);
+
+        String token = response.path("token");
+        System.out.println("token = " + token);
+    }
+    public static String getToken(){
+        Response response = RestAssured.given().accept(ContentType.MULTIPART)
+                .formParam("email", email)
+                .formParam("password", password)
+                .when().log().all()
+                .post("/allusers/login");
+
+        Assert.assertEquals(response.statusCode(),200);
+
+        String token = response.path("token");
+        return token;
+    }
+
+    public static String getToken(String userEmail, String userPassword){
+        Response response = RestAssured.given().accept(ContentType.MULTIPART)
+                .formParam("email", userEmail)
+                .formParam("password", userPassword)
+                .when().log().all()
+                .post("/allusers/login");
+
+        Assert.assertEquals(response.statusCode(),200);
+
+        String token = response.path("token");
+        return token;
     }
 }
